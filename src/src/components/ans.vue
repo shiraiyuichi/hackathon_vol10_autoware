@@ -16,8 +16,6 @@
 <script>
 // import SteinStore from 'stein-js-client'
 
-// const store = new SteinStore("https://api.steinhq.com/v1/storages/6174c7eac582292380aec74a");
-
 export default {
   name: 'Ans',
   props: ['fuga'],

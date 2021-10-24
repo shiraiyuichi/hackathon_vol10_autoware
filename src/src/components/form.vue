@@ -23,7 +23,7 @@
       :disabled="activateSubmit" 
       @click="addInputText"/>
     </div>
-    <!-- 以下https://reffect.co.jp/vue/vue-js-circle-progress-barのパクリ -->
+    
     <div style="transform:rotate(-90deg)" id="progressbar" class="progressbar">
       <svg v-if="noActive" height="100%" width="100%" viewBox="0 0 20 20" style="overflow: visible;">
       <circle cx="52.5%" cy="5px" fill="none" stroke-width="2" r="9" stroke="#E6ECF0" />
@@ -48,7 +48,7 @@
 <script>
 import SteinStore from 'stein-js-client'
 
-const store = new SteinStore("https://api.steinhq.com/v1/storages/6174c7eac582292380aec74a");
+const store = new SteinStore("https://自分のURL");
 
 export default {
   name: 'Button',
